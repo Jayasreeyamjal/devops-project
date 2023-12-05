@@ -9,5 +9,5 @@ def run_batch_file(C:\Users\jayas\Documents\3rd sem\ownproject\batch file\pull_a
 
 # Example usage:
 batch_file_path = r'C:\Users\jayas\Documents\3rd sem\ownproject\batch file\pull_and_run.bat'
-run_batch_file(C:\Users\jayas\Documents\3rd sem\ownproject\batch file\pull_and_run.bat)
+run_batch_file(batch_file_path)
 
