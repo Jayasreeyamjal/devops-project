@@ -1,0 +1,19 @@
+name: Run Batch File
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-batch-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Run Custom Action
+      run: |
+        python run_batch_file.py
+      working-directory: .github/actions
